@@ -15,8 +15,13 @@ public class ReadyCake extends Cake {
         super(ParmCakeName, ParmCakePrice);
     }
 
-    @Override 
+      @Override
     public double calculatePrice() {
-        return getCakePrice();   // Fixed price
+        return getCakePrice();   // fixed price
+    }
+
+    @Override
+    public String toString() {
+        return getCakeName() + " (Ready-made) - Price: $" + getCakePrice();
     }
 }

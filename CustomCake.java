@@ -33,4 +33,12 @@ public class CustomCake extends Cake{
     public double calculatePrice() {
         return getCakePrice() * cakeWeight + customCakeFee;
     }
+
+    @Override
+    public String toString() {
+       return getCakeName() 
+        + " (Custom Cake) - Price: $" + getCakePrice()
+        + ", Weight: " + cakeWeight + "kg"
+        + ", Fee: $" + customCakeFee;
+    }
 }

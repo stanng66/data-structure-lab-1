@@ -27,4 +27,9 @@ public abstract class Cake {
     }
 
     public abstract double calculatePrice();
+
+    @Override 
+    public String toString() {
+        return "Cake Name: " + getCakeName() + ", Cake Price: $" + getCakePrice();
+    }
 }
