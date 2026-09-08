@@ -26,6 +26,7 @@ public abstract class Cake {
         return cakePrice;
     }
 
+    // Lab requirement: Both child-classes must implement the calculatePrice() method declared in superclass Cake.
     public abstract double calculatePrice();
 
     @Override 

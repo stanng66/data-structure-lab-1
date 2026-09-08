@@ -31,7 +31,7 @@ public class CustomCake extends Cake{
     // Lab requirement: Both classes must implement the calculatePrice() method declared in superclass Cake.
     @Override
     public double calculatePrice() {
-        return getCakePrice() * cakeWeight + customCakeFee;
+        return getCakePrice() * cakeWeight + customCakeFee;   // Price per weight (kg) and fee
     }
 
     @Override

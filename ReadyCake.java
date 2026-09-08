@@ -15,7 +15,8 @@ public class ReadyCake extends Cake {
         super(ParmCakeName, ParmCakePrice);
     }
 
-      @Override
+    // Lab requirement: Both classes must implement the calculatePrice() method declared in superclass Cake.
+    @Override
     public double calculatePrice() {
         return getCakePrice();   // fixed price
     }
