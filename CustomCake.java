@@ -1,5 +1,5 @@
 // ====================
-// Lab 1
+// Lab 1 - Polymorphism
 // Stanley Nguyen (N01570766)
 // Humber College
 // CPAN-211-RNA
